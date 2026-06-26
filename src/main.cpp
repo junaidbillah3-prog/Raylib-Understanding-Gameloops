@@ -22,7 +22,6 @@ int main(){
     rec1.width = 40.0f;
     rec1.y = 700.0f;
 
-    // BG setup
     float bgX = 0.0f;
     float bgX1 = Falcon.width;
     float bgX2 = 1800.0f;
@@ -85,7 +84,6 @@ int main(){
             }
         }
 
-        // 4. DRAWING
         BeginDrawing();
             ClearBackground(RAYWHITE);
             DrawTexture(Falcon, bgX, 0, WHITE);
