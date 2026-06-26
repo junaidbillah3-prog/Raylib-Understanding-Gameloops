@@ -3,12 +3,12 @@
 int main(){
     InitWindow(1360, 760, "Geometry Dash: Star Wars Edition");
     InitAudioDevice();
-    Texture2D Darth_vader = LoadTexture("../assets/Darth_Vader.png");
-    Texture2D Falcon = LoadTexture("../assets/Falcon.png");
-    Texture2D Falcon1 = LoadTexture("../assets/Falcon1.png");
-    Sound vaderJump = LoadSound("../assets/vader.wav");
-    Sound theme1 = LoadSound("../assets/Vadertheme.mp3");
-    Sound vaderDie = LoadSound("../assets/Seismic.wav");
+    Texture2D Darth_vader = LoadTexture("../Assets/Textures/Darth_Vader.png");
+    Texture2D Falcon = LoadTexture("../Assets/Textures/Falcon.png");
+    Texture2D Falcon1 = LoadTexture("../Assets/Textures/Falcon1.png");
+    Sound vaderJump = LoadSound("../Assets/Sounds/vader.wav");
+    Sound theme1 = LoadSound("../Assets/Sounds/Vadertheme.mp3");
+    Sound vaderDie = LoadSound("../Assets/Sounds/Seismic.wav");
     SetTargetFPS(144);
     
 
